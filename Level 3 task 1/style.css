@@ -34,6 +34,12 @@
   text-align: center;
 }
 
+.slide-img{
+animation: slide 12s linear infinite;
+border:2px solid black ;
+    height:200px;
+    width:600px;
+}
 .slideshow {
   display: flex;
   flex-direction: row;
@@ -44,12 +50,11 @@
 }
 
 .slideshow img {
-  height: 450px;
-  width: auto;
+ /* height: 450px;*/
+/*  width: auto;*/
   margin: 10px 5px;
-  animation: slide 10s linear infinite;
+  
 }
-
 @keyframes slide {
   0% {
     transform: translateX(0);
