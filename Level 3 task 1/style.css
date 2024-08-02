@@ -8,17 +8,20 @@
   font-size: 25px;
 }
 .gallery {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
 }
 
 .gallery img {
+  padding: 1px;
   border-radius: 10px;
-  width: 200px;
-  height: auto;
+  height: 130px;
+  width: 100px;
   border: 1px solid #ccc;
 }
 .img-box {
+  
   flex-direction: column;
   display: flex;
   flex-wrap: wrap;
@@ -29,8 +32,9 @@
   border-radius: 10px;
   font-size: 18px;
   border: 1px solid #ccc;
-  height: 25px;
-  padding: 15px;
+  width: 100px;
+  height: 45px;
+  padding: 5px;
   text-align: center;
 }
 
