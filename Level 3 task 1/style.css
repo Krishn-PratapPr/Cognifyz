@@ -21,7 +21,6 @@
   border: 1px solid #ccc;
 }
 .img-box {
-  
   flex-direction: column;
   display: flex;
   flex-wrap: wrap;
@@ -38,11 +37,10 @@
   text-align: center;
 }
 
-.slide-img{
-
-border:2px solid black ;
-    height:200px;
-    width:600px;
+.slide-img {
+  border: 2px solid black;
+  height: 200px;
+  width: 600px;
 }
 .slideshow {
   animation: slide 12s linear infinite;
@@ -55,10 +53,9 @@ border:2px solid black ;
 }
 
 .slideshow img {
- /* height: 450px;*/
-/*  width: auto;*/
+  /* height: 450px;*/
+  /*  width: auto;*/
   margin: 10px 5px;
-  
 }
 @keyframes slide {
   0% {

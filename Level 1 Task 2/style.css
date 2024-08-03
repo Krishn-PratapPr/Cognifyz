@@ -1,9 +1,9 @@
-body{
-    background-color: rgb(254, 176, 167);
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+body {
+  background-color: rgb(254, 176, 167);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 .container {
   width: 600px;
