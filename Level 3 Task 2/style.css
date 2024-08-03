@@ -34,26 +34,27 @@ ul {
   list-style: none;
 }
 ul a {
-  font-size: 18px;
+  font-size: 18px; 
   font-weight: 600;
   text-decoration: none;
   color: #00abf0;
 }
 .home {
+
   background: url(img/cogn.jpg) no-repeat;
   background-position: center;
   background-size: cover;
-  border: 1px solid #ccc;
   padding: 20px;
   color: #ccc;
 }
+
 .home h1 {
   width: 60%;
   font-size: 50px;
   color: #00abf0;
 }
 .home p {
-  width: 80%;
+  width: 75%;
   font-size: 26px;
 }
 
@@ -97,6 +98,11 @@ footer img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.apply a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 600;
 }
 .apply-button {
     background-color: #0074D9;
